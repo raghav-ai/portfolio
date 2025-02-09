@@ -1,8 +1,13 @@
+import Navbar from './Components/Navbar/nav.tsx'
+import Home from './Components/Pages/Home.tsx'
 import './App.css'
 
 function App() {
   return (
-    <div className='text-3xl bg-red-500'>Hello</div>
+    <div className='bg-slate-950'>
+      <Navbar/> 
+      <Home/>
+    </div>
   )
 }
 
